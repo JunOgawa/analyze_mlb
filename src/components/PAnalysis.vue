@@ -34,24 +34,22 @@ export default {
   },
   data: () => {
     return {
+      // to display
       Years: [],
       ALTeams: [],
       NLTeams: [],
-      resultURL: [],
 
+      // to keep the clicked item
       selectedYear: [],
       selectedTeam: [],
       selectedPlayer: [],
+      resultURL: [],
       isClicked: false,
 
-      foods: [
-        { kind: 'vegitable', name: ['Tomato', 'Cabbage', 'Onion'] },
-        { kind: 'fruits', name: ['Apple', 'Orange', 'Peach'] }
-      ],
-      test: [
-        { year: 2019, teams: ['AA', 'AB'] },
-        { year: 2018, teams: ['BA', 'BB'] }
-      ],
+      // should be updated without iframe here, but only src.
+      // simply put iframe and src="selectedURL" to HTML does not work.
+      // probably because the following reason.
+      // https://qiita.com/coppieee/items/4260bd0af246aebf5557
       pitchersData: [
         {
           year: 2019,
@@ -81,13 +79,32 @@ export default {
           name: 'Gerrit Cole',
           url: '<iframe width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiYzQ1YTVmM2QtZjAzOC00ZDcwLTgzNGQtNTMzZWMwYzYyMGEwIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>'
         }
+      ],
+
+      // just for Test
+      foods: [
+        { kind: 'vegitable', name: ['Tomato', 'Cabbage', 'Onion'] },
+        { kind: 'fruits', name: ['Apple', 'Orange', 'Peach'] }
+      ],
+      test: [
+        { year: 2019, teams: ['AA', 'AB'] },
+        { year: 2018, teams: ['BA', 'BB'] }
       ]
     }
   },
   created () {
+    // create array where elements are sorted by year, like:
+    // [2019, 2018, 2017]
     this.Years = this.uniqueYears(this.pitchersData)
-    this.selectedYear = this.Years[0] // set initial value of selectedYear
 
+    // set initial value of selectedYear, latest year is selected.
+    // if no years are in pichtersData, it will be in trouble.
+    this.selectedYear = this.Years[0]
+
+    // create teams' objects with teams for every year, like
+    // {year 2019, teams: [CHC, LAD]}
+    // {year 2018, teams: [LAD, NYM]}
+    // Should not use forEach, but no idea.
     this.Years.forEach((targetYear) => {
       const leagues = ['AL', 'NL']
       leagues.forEach((targetLeague) => {
@@ -98,10 +115,18 @@ export default {
         }
       })
     })
+    // set initial value of selectedTeam.
+    // If there's no AL team in pichtersData, that will be in trouble.
     this.selectedTeam = this.ALTeams[0].teams[0]
   },
 
   computed: {
+    // I'm not sure why only the following can move to computed
+    // but others are not.
+    // Take care you cannot directly use any arguments in function
+    // in computed, but use like the followings.
+
+    //  Picking out players in the selected year and teams.
     Players: () => {
       return (val, target1, target2) => {
         let retVal = []
@@ -115,6 +140,7 @@ export default {
       }
     },
 
+    //  Picking out teams in the selected year.
     Teams: () => {
       return (val, target) => {
         const retVal = val.filter(item => {
@@ -129,21 +155,13 @@ export default {
   },
 
   methods: {
-    // Just for test
-    whatfood (val, targetKind) {
-      const retVal = val.filter(item => {
-        return item.kind === targetKind
-      })
-      return retVal[0].name
-    },
-
     changeYear (val) {
       this.isClicked = !this.isClicked
-      this.selectedYear = val
+      this.selectedYear = val // keep a selected year
     },
 
     changeTeam (val) {
-      this.selectedTeam = val
+      this.selectedTeam = val // keep a selected team
     },
 
     changePlayer (val) {
@@ -169,9 +187,9 @@ export default {
           if (item.year === val1 && item.league === val2) {
             return item.team
           }
-        }) // 1. 各要素オブジェクトから、"year"に合致するチームのみを返す
-        .filter(Boolean) // 2. teamが空の項目を削除
-        .reduce(this.findoutUnique, []) // 3. uniqueな値のみを抽出
+        }) // 1. return property that matches year and league as an array by team.
+        .filter(Boolean) // 2. delete empty elements.
+        .reduce(this.findoutUnique, []) // 3. duplicate teams should be delete.
         .sort()
       const returnArray = {
         year: val1,
@@ -180,8 +198,7 @@ export default {
       return returnArray
     },
 
-    // findoutUnique
-    // uniqueな値のみ抽出するreduce用のCallback関数
+    // Callback function for reduce to delete duplicated values.
     findoutUnique (acum, val) {
       if (acum.includes(val) === false) {
         acum.push(val)
@@ -191,17 +208,25 @@ export default {
 
     uniqueYears (items) {
       const numDescendingOrder = function (a, b) {
-        // 数値を降順にsortする関数
+        // sort numbers(years here) by descending order
         return b - a
       }
       const years = items
         .map((item) => {
           return item.year
-        }) // 1. 各要素オブジェクトから、"year"のみを抽出
+        }) // 1. return property that matches year and league as an array by team.
         .filter(Boolean)
-        .reduce(this.findoutUnique, []) // 2. uniqueな値のみを抽出
-      years.sort(numDescendingOrder) // 3. "year"の値が格納された配列をソート
+        .reduce(this.findoutUnique, []) // 2. duplicate teams should be delete.
+      years.sort(numDescendingOrder) // 3. sort the array which contains the list of year.
       return years
+    },
+
+    // just for test
+    whatfood (val, targetKind) {
+      const retVal = val.filter(item => {
+        return item.kind === targetKind
+      })
+      return retVal[0].name
     }
   }
 }
