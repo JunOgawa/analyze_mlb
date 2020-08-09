@@ -1,4 +1,3 @@
-import Vue from 'vue'
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
@@ -33,12 +32,20 @@ import Vue from 'vue'
 </template>
 
 <script>
-export default {
+import Vue from 'vue'
+import axios from 'axios'
+
+export default Vue.extend({
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  created: async () => {
+    const response = await axios.get('https://api.zipaddress.net/?zipcode=6048151')
+    window.console.log(response)
   }
-}
+})
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
