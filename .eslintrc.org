@@ -1,6 +1,0 @@
-{
-	"env": {
-		"space-before-function-paren": ["never"]
-	}
-}
-
