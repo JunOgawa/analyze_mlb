@@ -3,25 +3,53 @@ import Vue from 'vue'
 <template>
   <div id="app">
     <div class="menuColumn">
-      <div class="Year" v-for= "value in Years" :key="value" :style="isClicked ? { 'background-color': '#e6e6e6' } : null" @click="changeYear(value)">{{value}}</div>
-      <br>
+      <div
+        class="Year"
+        v-for="value in Years"
+        :key="value"
+        :style="isClicked ? { 'background-color': '#e6e6e6' } : null"
+        @click="changeYear(value)"
+      >{{value}}</div>
+      <br />
       <table>
         <tr align="left">
-          <div class="League"><td>AL:</td></div>
-          <div class="Team" v-for="value in Teams(ALTeams, selectedYear)" :key="value" @click="changeTeam(value)"><td>{{value}}</td></div>
+          <div class="League">
+            <td>AL:</td>
+          </div>
+          <div
+            class="Team"
+            v-for="value in Teams(ALTeams, selectedYear)"
+            :key="value"
+            @click="changeTeam(value)"
+          >
+            <td>{{value}}</td>
+          </div>
         </tr>
         <tr align="left">
-          <div class="League"><td>NL:</td></div>
-          <div class="Team" v-for="value in Teams(NLTeams, selectedYear)" :key="value" @click="changeTeam(value)"><td>{{value}}</td></div>
+          <div class="League">
+            <td>NL:</td>
+          </div>
+          <div
+            class="Team"
+            v-for="value in Teams(NLTeams, selectedYear)"
+            :key="value"
+            @click="changeTeam(value)"
+          >
+            <td>{{value}}</td>
+          </div>
         </tr>
       </table>
-      <br>
-      <div class="Player" v-for="value in Players(pitchersData, selectedYear, selectedTeam)" :key="value" @click="changePlayer(value)">{{value}}</div>
+      <br />
+      <div
+        class="Player"
+        v-for="value in Players(pitchersData, selectedYear, selectedTeam)"
+        :key="value"
+        @click="changePlayer(value)"
+      >{{value}}</div>
     </div>
-    <hr id="hr1">
+    <hr id="hr1" />
     <div class="mainColumn">
-      <div class="Analyze" v-html='resultURL[0]'>
-      </div>
+      <div class="Analyze" v-html="resultURL[0]"></div>
     </div>
   </div>
 </template>
@@ -56,28 +84,32 @@ export default {
           league: 'NL',
           team: 'LAD',
           name: 'Clayton Kershaw',
-          url: '<iframe width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiMzA3NjBiN2MtNzkwNS00OTQ2LThlNjUtOGE1YTJmYTA2NjIwIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>'
+          url:
+            '<iframe width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiMzA3NjBiN2MtNzkwNS00OTQ2LThlNjUtOGE1YTJmYTA2NjIwIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>'
         },
         {
           year: 2019,
           league: 'NL',
           team: 'CHC',
           name: 'Darvish Yu',
-          url: '<iframe width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiZjIxN2IxZjQtNmIyNS00ZTFlLWE1MmYtN2VlMmQ5OWM5ZGE2IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSectiona161acc2bcb326b022ce" frameborder="0" allowFullScreen="true"></iframe>'
+          url:
+            '<iframe width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiZjIxN2IxZjQtNmIyNS00ZTFlLWE1MmYtN2VlMmQ5OWM5ZGE2IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSectiona161acc2bcb326b022ce" frameborder="0" allowFullScreen="true"></iframe>'
         },
         {
           year: 2019,
           league: 'NL',
           team: 'LAD',
           name: 'Kenta Maeda',
-          url: '<iframe width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiZjkxOTRkNGEtNDhkYi00OWQ1LThmNzQtZWU5NTkyY2M4ZjIxIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9" frameborder="0" allowFullScreen="true"></iframe>'
+          url:
+            '<iframe width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiZjkxOTRkNGEtNDhkYi00OWQ1LThmNzQtZWU5NTkyY2M4ZjIxIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9" frameborder="0" allowFullScreen="true"></iframe>'
         },
         {
           year: 2019,
           league: 'AL',
           team: 'NYY',
           name: 'Gerrit Cole',
-          url: '<iframe width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiYzQ1YTVmM2QtZjAzOC00ZDcwLTgzNGQtNTMzZWMwYzYyMGEwIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>'
+          url:
+            '<iframe width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiYzQ1YTVmM2QtZjAzOC00ZDcwLTgzNGQtNTMzZWMwYzYyMGEwIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>'
         }
       ],
 
@@ -131,10 +163,10 @@ export default {
       return (val, target1, target2) => {
         let retVal = []
         retVal = val
-          .filter(item => {
-            return (item.year === target1 && item.team === target2)
+          .filter((item) => {
+            return item.year === target1 && item.team === target2
           })
-          .map(item => item.name)
+          .map((item) => item.name)
         // retVal2 = retVal.map(item => item.name)
         return retVal
       }
@@ -143,7 +175,7 @@ export default {
     //  Picking out teams in the selected year.
     Teams: () => {
       return (val, target) => {
-        const retVal = val.filter(item => {
+        const retVal = val.filter((item) => {
           return item.year === target
         })
         if (retVal.length > 1) {
@@ -165,12 +197,16 @@ export default {
     },
 
     changePlayer (val) {
-      this.selectedPlayer = val
+      this.selectedPlayer = val // Set slectedPlayer to a clicked player.
       this.resultURL = this.pitchersData
-        .filter(item => {
-          return (item.year === this.selectedYear && item.team === this.selectedTeam && item.name === this.selectedPlayer)
-        })
-        .map(item => item.url)
+        .filter((item) => {
+          return (
+            item.year === this.selectedYear &&
+            item.team === this.selectedTeam &&
+            item.name === this.selectedPlayer
+          )
+        }) // filter by year and team and player
+        .map((item) => item.url) // array for player's URL.
       if (this.resultURL.length > 1) {
         console.log('result URL Error')
       }
@@ -223,7 +259,7 @@ export default {
 
     // just for test
     whatfood (val, targetKind) {
-      const retVal = val.filter(item => {
+      const retVal = val.filter((item) => {
         return item.kind === targetKind
       })
       return retVal[0].name
@@ -237,7 +273,9 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  table tr {height: 10pt }
+  table tr {
+    height: 10pt;
+  }
   padding: 10pt;
   height: 90pt;
   line-height: auto;
@@ -249,17 +287,16 @@ export default {
   font-weight: bold;
   text-decoration: underline;
   line-height: auto;
-  text-align:left;
+  text-align: left;
   height: auto;
   padding: 3px;
   line-height: 3pt;
 }
 
-.League{
+.League {
   display: inline-block;
   line-height: 5pt;
   margin-right: 7pt;
-
 }
 .Team {
   font-weight: bold;
