@@ -1,4 +1,4 @@
-# analyze_mlb
+# analyzeMLB
 
 ## Project setup
 ```
