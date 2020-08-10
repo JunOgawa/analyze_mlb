@@ -7,19 +7,20 @@ import Vue from 'vue'
         class="Year"
         v-for="value in Years"
         :key="value"
-        :style="isClicked ? { 'background-color': '#e6e6e6' } : null"
+        :class="changeColor(value, selectedYear)"
         @click="changeYear(value)"
       >{{value}}</div>
       <br />
       <table>
         <tr align="left">
           <div class="League">
-            <td>AL:</td>
+            <td><div style='color:black;'>AL:</div></td>
           </div>
           <div
             class="Team"
             v-for="value in Teams(ALTeams, selectedYear)"
             :key="value"
+            :class="changeColor(value, selectedTeam)"
             @click="changeTeam(value)"
           >
             <td>{{value}}</td>
@@ -27,12 +28,13 @@ import Vue from 'vue'
         </tr>
         <tr align="left">
           <div class="League">
-            <td>NL:</td>
+            <td><div style='color:black;'>NL:</div></td>
           </div>
           <div
             class="Team"
             v-for="value in Teams(NLTeams, selectedYear)"
             :key="value"
+            :class="changeColor(value, selectedTeam)"
             @click="changeTeam(value)"
           >
             <td>{{value}}</td>
@@ -44,6 +46,7 @@ import Vue from 'vue'
         class="Player"
         v-for="value in Players(pitchersData, selectedYear, selectedTeam)"
         :key="value"
+        :class="changeColor(value, selectedPlayer)"
         @click="changePlayer(value)"
       >{{value}}</div>
     </div>
@@ -187,6 +190,15 @@ export default {
   },
 
   methods: {
+    // https://uncle-javascript.com/vue-color-change-methods
+    changeColor (val1, val2) {
+      if (val1 === val2) {
+        return 'selectedColor' // change the class for CSS
+      } else {
+        return 'unselectedColor' // change the class for CSS
+      }
+    },
+
     changeYear (val) {
       this.isClicked = !this.isClicked
       this.selectedYear = val // keep a selected year
@@ -304,6 +316,12 @@ export default {
   display: inline-block;
   cursor: pointer;
   line-height: 3pt;
+}
+.selectedColor {
+   color: #cf7575;
+}
+.unselectedColor {
+  color: #147aeed8;
 }
 
 #hr1 {
