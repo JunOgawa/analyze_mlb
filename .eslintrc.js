@@ -43,11 +43,19 @@ module.exports = {
 See: https://qiita.com/kozzzz/items/be3a5f326311b6784860
 See: https://numb86-tech.hatenablog.com/entry/2018/09/17/185100
 
-3) Add rules as same as .prettierrc. You need both .prettierrc and .eslintrc.js
+3) Set the parser to vue-eslint-parser
+- "parser": "babel-eslint",
++ "parser": "vue-eslint-parser",
+  "parserOptions": {
++     "parser": "babel-eslint",
+      "sourceType": "module"
+  }
+  See: https://eslint.vuejs.org/user-guide/#usage
+  
+4) Add rules as same as .prettierrc. You need both .prettierrc and .eslintrc.js
 
-4) add babel.config.js as follows:
+5) add babel.config.js as follows:
 module.exports = {
   presets: [['@vue/app', { useBuiltIns: 'entry' }]]
 }
-
 */
