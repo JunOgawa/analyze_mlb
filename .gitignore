@@ -22,7 +22,8 @@ pnpm-debug.log*
 *.sw?
 
 #Added by J.Ogawa
-firebase.json*
-.firebase*
-.eslintrc*
+//firebase.json*
+//.firebase*
+//.eslintrc*
 \ no
+.firebase/hosting*
