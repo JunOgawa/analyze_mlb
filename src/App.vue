@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <div id="nav" style="color: #42b983; font-weight: bold; font-size: 120%">
+    <div id="nav" style="color: #42b983; font-weight: bold; font-size: 120%;">
       <router-link to="/"></router-link>MLB Pitchers' Analysis
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 

@@ -2,57 +2,65 @@
 import Vue from 'vue'
 <template>
   <div id="app">
-    <div class="menuColumn">
+    <div class="menu-column">
       <div
-        class="Year"
+        class="year"
         v-for="value in Years"
         :key="value"
         :class="changeColor(value, selectedYear)"
         @click="changeYear(value)"
-      >{{value}}</div>
+      >
+        {{ value }}
+      </div>
       <br />
       <table>
         <tr align="left">
-          <div class="League">
-            <td><div style='color:black;'>AL:</div></td>
+          <div class="league">
+            <td>
+              <div style="color: black;">AL:</div>
+            </td>
           </div>
           <div
-            class="Team"
-            v-for="value in Teams(ALTeams, selectedYear)"
+            class="team"
+            v-for="value in chooseTeams(ALTeams, selectedYear)"
             :key="value"
             :class="changeColor(value, selectedTeam)"
             @click="changeTeam(value)"
           >
-            <td>{{value}}</td>
+            <td>{{ value }}</td>
           </div>
         </tr>
         <tr align="left">
-          <div class="League">
-            <td><div style='color:black;'>NL:</div></td>
+          <div class="league">
+            <td>
+              <div style="color: black;">NL:</div>
+            </td>
           </div>
           <div
-            class="Team"
-            v-for="value in Teams(NLTeams, selectedYear)"
+            class="team"
+            v-for="value in chooseTeams(NLTeams, selectedYear)"
             :key="value"
             :class="changeColor(value, selectedTeam)"
             @click="changeTeam(value)"
           >
-            <td>{{value}}</td>
+            <td>{{ value }}</td>
           </div>
         </tr>
       </table>
       <br />
       <div
-        class="Player"
-        v-for="value in Players(pitchersData, selectedYear, selectedTeam)"
+        class="player"
+        v-for="value in choosePlayers(pitchersData, selectedYear, selectedTeam)"
         :key="value"
         :class="changeColor(value, selectedPlayer)"
         @click="changePlayer(value)"
-      >{{value}}</div>
+      >
+        {{ value }}
+      </div>
     </div>
     <hr id="hr1" />
-    <div class="mainColumn">
-      <div class="Analyze" v-html="resultURL[0]"></div>
+    <div class="main-column">
+      <div class="analyze" v-html="resultURL[0]"></div>
     </div>
   </div>
 </template>
@@ -127,7 +135,7 @@ export default {
       ]
     }
   },
-  created () {
+  created() {
     // create array where elements are sorted by year, like:
     // [2019, 2018, 2017]
     this.Years = this.uniqueYears(this.pitchersData)
@@ -162,7 +170,7 @@ export default {
     // in computed, but use like the followings.
 
     //  Picking out players in the selected year and teams.
-    Players: () => {
+    choosePlayers: () => {
       return (val, target1, target2) => {
         let retVal = []
         retVal = val
@@ -176,7 +184,7 @@ export default {
     },
 
     //  Picking out teams in the selected year.
-    Teams: () => {
+    chooseTeams: () => {
       return (val, target) => {
         const retVal = val.filter((item) => {
           return item.year === target
@@ -191,24 +199,24 @@ export default {
 
   methods: {
     // https://uncle-javascript.com/vue-color-change-methods
-    changeColor (val1, val2) {
+    changeColor(val1, val2) {
       if (val1 === val2) {
-        return 'selectedColor' // change the class for CSS
+        return 'selected-color' // change the class for CSS
       } else {
-        return 'unselectedColor' // change the class for CSS
+        return 'unselected-color' // change the class for CSS
       }
     },
 
-    changeYear (val) {
+    changeYear(val) {
       this.isClicked = !this.isClicked
       this.selectedYear = val // keep a selected year
     },
 
-    changeTeam (val) {
+    changeTeam(val) {
       this.selectedTeam = val // keep a selected team
     },
 
-    changePlayer (val) {
+    changePlayer(val) {
       this.selectedPlayer = val // Set slectedPlayer to a clicked player.
       this.resultURL = this.pitchersData
         .filter((item) => {
@@ -229,7 +237,7 @@ export default {
     // You can use .filter and .map consecutively for almost same resuluts.
     // However if no teams are there, teams becomes "undefined" so that
     //  "Cannot read property 'teams' of undefined" is emerged.
-    uniqueTeam (val1, val2) {
+    uniqueTeam(val1, val2) {
       const teams = this.pitchersData
         .map((item) => {
           if (item.year === val1 && item.league === val2) {
@@ -247,14 +255,14 @@ export default {
     },
 
     // Callback function for reduce to delete duplicated values.
-    findoutUnique (acum, val) {
+    findoutUnique(acum, val) {
       if (acum.includes(val) === false) {
         acum.push(val)
       }
       return acum
     },
 
-    uniqueYears (items) {
+    uniqueYears(items) {
       const numDescendingOrder = function (a, b) {
         // sort numbers(years here) by descending order
         return b - a
@@ -270,7 +278,7 @@ export default {
     },
 
     // just for test
-    whatfood (val, targetKind) {
+    whatfood(val, targetKind) {
       const retVal = val.filter((item) => {
         return item.kind === targetKind
       })
@@ -281,7 +289,7 @@ export default {
 </script>
 
 <style lang="scss">
-.menuColumn {
+.menu-column {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -294,7 +302,7 @@ export default {
   color: #147aeed8;
   cursor: pointer;
 }
-.menuColumn > div {
+.menu-column > div {
   display: inline-block;
   font-weight: bold;
   text-decoration: underline;
@@ -305,22 +313,22 @@ export default {
   line-height: 3pt;
 }
 
-.League {
+.league {
   display: inline-block;
   line-height: 5pt;
   margin-right: 7pt;
 }
-.Team {
+.team {
   font-weight: bold;
   text-decoration: underline;
   display: inline-block;
   cursor: pointer;
   line-height: 3pt;
 }
-.selectedColor {
-   color: #cf7575;
+.selected-color {
+  color: #cf7575;
 }
-.unselectedColor {
+.unselected-color {
   color: #147aeed8;
 }
 

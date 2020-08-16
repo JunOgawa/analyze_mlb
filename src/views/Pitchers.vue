@@ -1,6 +1,6 @@
 <template>
   <div class="Pitchers">
-    <PAnalysis msg="Pitchers' Analysis"/>
+    <PAnalysis msg="Pitchers' Analysis" />
   </div>
 </template>
 
