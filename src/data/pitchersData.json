@@ -1,0 +1,30 @@
+[
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "LAD",
+    "name": "Clayton Kershaw",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMzA3NjBiN2MtNzkwNS00OTQ2LThlNjUtOGE1YTJmYTA2NjIwIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSection\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "CHC",
+    "name": "Darvish Yu",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiZjIxN2IxZjQtNmIyNS00ZTFlLWE1MmYtN2VlMmQ5OWM5ZGE2IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSectiona161acc2bcb326b022ce\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "LAD",
+    "name": "Kenta Maeda",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiZjkxOTRkNGEtNDhkYi00OWQ1LThmNzQtZWU5NTkyY2M4ZjIxIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "HOU",
+    "name": "Gerrit Cole",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiYzQ1YTVmM2QtZjAzOC00ZDcwLTgzNGQtNTMzZWMwYzYyMGEwIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSection\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  }
+]

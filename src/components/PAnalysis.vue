@@ -1,5 +1,6 @@
 <!-- PAnalysis.vue -->
 import Vue from 'vue'
+
 <template>
   <div id="app">
     <div class="menu-column">
@@ -50,7 +51,7 @@ import Vue from 'vue'
       <br />
       <div
         class="player"
-        v-for="value in choosePlayers(pitchersData, selectedYear, selectedTeam)"
+        v-for="value in choosePlayers(this.pitchersData, this.selectedYear, this.selectedTeam)"
         :key="value"
         :class="changeColor(value, selectedPlayer)"
         @click="changePlayer(value)"
@@ -66,13 +67,22 @@ import Vue from 'vue'
 </template>
 
 <script>
+// should be updated without iframe here, but only src.
+// simply put iframe and src="selectedURL" to HTML does not work.
+// probably because the following reason.
+// https://qiita.com/coppieee/items/4260bd0af246aebf5557
+import readJSON from '@/data/pitchersData.json'
 export default {
   name: 'PAnalysis',
   props: {
     msg: String
   },
+  components: { readJSON },
   data: () => {
+    //    const { pitchersData } = jsonData
+
     return {
+      pitchersData: [],
       // to display
       Years: [],
       ALTeams: [],
@@ -84,46 +94,6 @@ export default {
       selectedPlayer: [],
       resultURL: [],
       isClicked: false,
-
-      // should be updated without iframe here, but only src.
-      // simply put iframe and src="selectedURL" to HTML does not work.
-      // probably because the following reason.
-      // https://qiita.com/coppieee/items/4260bd0af246aebf5557
-      pitchersData: [
-        {
-          year: 2019,
-          league: 'NL',
-          team: 'LAD',
-          name: 'Clayton Kershaw',
-          url:
-            '<iframe width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiMzA3NjBiN2MtNzkwNS00OTQ2LThlNjUtOGE1YTJmYTA2NjIwIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>'
-        },
-        {
-          year: 2019,
-          league: 'NL',
-          team: 'CHC',
-          name: 'Darvish Yu',
-          url:
-            '<iframe width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiZjIxN2IxZjQtNmIyNS00ZTFlLWE1MmYtN2VlMmQ5OWM5ZGE2IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSectiona161acc2bcb326b022ce" frameborder="0" allowFullScreen="true"></iframe>'
-        },
-        {
-          year: 2019,
-          league: 'NL',
-          team: 'LAD',
-          name: 'Kenta Maeda',
-          url:
-            '<iframe width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiZjkxOTRkNGEtNDhkYi00OWQ1LThmNzQtZWU5NTkyY2M4ZjIxIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9" frameborder="0" allowFullScreen="true"></iframe>'
-        },
-        {
-          year: 2019,
-          league: 'AL',
-          team: 'NYY',
-          name: 'Gerrit Cole',
-          url:
-            '<iframe width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiYzQ1YTVmM2QtZjAzOC00ZDcwLTgzNGQtNTMzZWMwYzYyMGEwIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>'
-        }
-      ],
-
       // just for Test
       foods: [
         { kind: 'vegitable', name: ['Tomato', 'Cabbage', 'Onion'] },
@@ -136,10 +106,10 @@ export default {
     }
   },
   created() {
+    this.pitchersData = readJSON
     // create array where elements are sorted by year, like:
     // [2019, 2018, 2017]
     this.Years = this.uniqueYears(this.pitchersData)
-
     // set initial value of selectedYear, latest year is selected.
     // if no years are in pichtersData, it will be in trouble.
     this.selectedYear = this.Years[0]
@@ -296,7 +266,7 @@ export default {
   table tr {
     height: 10pt;
   }
-  padding: 10pt;
+  padding-top: 0pt;
   height: 90pt;
   line-height: auto;
   color: #147aeed8;
@@ -330,6 +300,26 @@ export default {
 }
 .unselected-color {
   color: #147aeed8;
+}
+.main-column {
+  padding-top: 0pt;
+}
+
+.analyze {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.analyze iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 #hr1 {
