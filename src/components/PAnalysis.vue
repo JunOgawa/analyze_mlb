@@ -67,10 +67,6 @@ import Vue from 'vue'
 </template>
 
 <script>
-// should be updated without iframe here, but only src.
-// simply put iframe and src="selectedURL" to HTML does not work.
-// probably because the following reason.
-// https://qiita.com/coppieee/items/4260bd0af246aebf5557
 import readJSON from '@/data/pitchersData.json'
 export default {
   name: 'PAnalysis',
