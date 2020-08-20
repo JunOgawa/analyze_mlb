@@ -16,9 +16,30 @@
   {
     "year": 2019,
     "league": "NL",
+    "team": "LAD",
+    "name": "Kenley Jansen",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMjFiMWU5YTctYzNlNS00YmQ5LTk1ZDktNmFkMDg1YTBjMzk2IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSectionc9c3a8a35c9cf2a479cb\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "LAD",
+    "name": "Walker Buehler",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiYzhlNWQ0ODktODc4Yy00ODQ0LTg4OWMtNThlMmQ5YTBiM2RjIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSectione3e8b4b8912ef426764e\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "LAD",
+    "name": "Rich Hill",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiOTM4ZjcyOTEtYmQ0MS00MjAwLTgyODgtNWRmMjU0NzEzYjc3IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSectionf6bae91e98e4ea38b190\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
     "team": "CHC",
     "name": "Darvish Yu",
-    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNDlmZTg3Y2YtOGUwZi00MGE3LWFiMTQtMDA0ZTBlYzliOGY5IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNDlmZTg3Y2YtOGUwZi00MGE3LWFiMTQtMDA0ZTBlYzliOGY5IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSectiond857627b29db121183aa\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
   },
   {
     "year": 2019,
