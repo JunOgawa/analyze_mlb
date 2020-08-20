@@ -144,6 +144,7 @@ export default {
             return item.year === target1 && item.team === target2
           })
           .map((item) => item.name)
+          .sort()
         // retVal2 = retVal.map(item => item.name)
         return retVal
       }
@@ -278,7 +279,6 @@ export default {
   padding: 3px;
   line-height: 3pt;
 }
-
 .league {
   display: inline-block;
   line-height: 5pt;
@@ -290,6 +290,10 @@ export default {
   display: inline-block;
   cursor: pointer;
   line-height: 3pt;
+  margin-right: 3pt;
+}
+.player {
+  margin-right: 7pt;
 }
 .selected-color {
   color: #cf7575;
