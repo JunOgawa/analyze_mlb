@@ -13,7 +13,6 @@ import Vue from 'vue'
       >
         {{ value }}
       </div>
-      <br />
       <table>
         <tr align="left">
           <div class="league">
@@ -48,7 +47,6 @@ import Vue from 'vue'
           </div>
         </tr>
       </table>
-      <br />
       <div
         class="player"
         v-for="value in choosePlayers(this.pitchersData, this.selectedYear, this.selectedTeam)"
@@ -60,6 +58,7 @@ import Vue from 'vue'
       </div>
     </div>
     <hr id="hr1" />
+
     <div class="main-column">
       <div class="analyze" v-html="resultURL[0]"></div>
     </div>
@@ -283,6 +282,7 @@ export default {
   display: inline-block;
   line-height: 5pt;
   margin-right: 7pt;
+  margin-top: 5pt;
 }
 .team {
   font-weight: bold;
@@ -302,15 +302,16 @@ export default {
   color: #147aeed8;
 }
 .main-column {
-  padding-top: 0pt;
+  padding-top: auto;
 }
 
 .analyze {
   position: relative;
   width: 100%;
   height: 0;
-  padding-top: 45%;
+  padding-top: 35%;
   display: block;
+  margin-top: auto;
   margin-left: auto;
   margin-right: auto;
 }
@@ -321,12 +322,11 @@ export default {
   width: 100%;
   height: 100%;
 }
-
 #hr1 {
   display: block;
-  border-color: #66666675;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  border-color: #adacac75;
+  margin-top: auto;
+  margin-bottom: 10pt;
   margin-left: auto;
   margin-right: auto;
   border-style: inset;
