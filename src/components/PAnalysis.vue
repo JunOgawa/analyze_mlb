@@ -47,18 +47,19 @@ import Vue from 'vue'
           </div>
         </tr>
       </table>
-      <div
-        class="player"
-        v-for="value in choosePlayers(this.pitchersData, this.selectedYear, this.selectedTeam)"
-        :key="value"
-        :class="changeColor(value, selectedPlayer)"
-        @click="changePlayer(value)"
-      >
-        {{ value }}
-      </div>
+      <table class="players-table">
+        <div
+          class="player"
+          v-for="value in choosePlayers(this.pitchersData, this.selectedYear, this.selectedTeam)"
+          :key="value"
+          :class="changeColor(value, selectedPlayer)"
+          @click="changePlayer(value)"
+        >
+          <td>{{ value }}</td>
+        </div>
+      </table>
     </div>
-    <hr id="hr1" />
-
+    <hr class="hr1" />
     <div class="main-column">
       <div class="analyze" v-html="resultURL[0]"></div>
     </div>
@@ -263,7 +264,7 @@ export default {
     height: 10pt;
   }
   padding-top: 0pt;
-  height: 90pt;
+  height: auto;
   line-height: auto;
   color: #147aeed8;
   cursor: pointer;
@@ -293,7 +294,13 @@ export default {
   margin-right: 3pt;
 }
 .player {
+  font-weight: bold;
+  display: inline-block;
   margin-right: 7pt;
+}
+.players-table {
+  margin-left: auto;
+  margin-right: auto;
 }
 .selected-color {
   color: #cf7575;
@@ -309,7 +316,7 @@ export default {
   position: relative;
   width: 100%;
   height: 0;
-  padding-top: 35%;
+  padding-top: 50%;
   display: block;
   margin-top: auto;
   margin-left: auto;
@@ -322,14 +329,13 @@ export default {
   width: 100%;
   height: 100%;
 }
-#hr1 {
+.hr1 {
   display: block;
   border-color: #adacac75;
   margin-top: auto;
   margin-bottom: 10pt;
   margin-left: auto;
   margin-right: auto;
-  border-style: inset;
   border-width: 1px;
 }
 </style>
