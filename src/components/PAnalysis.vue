@@ -260,6 +260,7 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: normal;
   table tr {
     height: 10pt;
   }
@@ -269,9 +270,18 @@ export default {
   color: #147aeed8;
   cursor: pointer;
 }
+@media screen and (min-width: 481px) {
+  .menu-column {
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 769px) {
+  .menu-column {
+    font-weight: bold;
+  }
+}
 .menu-column > div {
   display: inline-block;
-  font-weight: bold;
   text-decoration: underline;
   line-height: auto;
   text-align: left;
@@ -284,9 +294,9 @@ export default {
   line-height: 5pt;
   margin-right: 7pt;
   margin-top: 5pt;
+  font-weight: normal;
 }
 .team {
-  font-weight: bold;
   text-decoration: underline;
   display: inline-block;
   cursor: pointer;
@@ -294,7 +304,6 @@ export default {
   margin-right: 3pt;
 }
 .player {
-  font-weight: bold;
   display: inline-block;
   margin-right: 7pt;
 }
@@ -342,7 +351,6 @@ https://taneppa.net/responsive_background_image/
     padding-top: 45%;
   }
 }
-
 .analyze iframe {
   position: absolute;
   top: 0;
