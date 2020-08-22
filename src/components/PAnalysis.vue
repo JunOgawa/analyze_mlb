@@ -312,16 +312,37 @@ export default {
   padding-top: auto;
 }
 
+/*
+"padding-top" works for resoponsive design.
+"position" is the another key.
+In case of setting "position: absolute;", their parents element
+should set to "position: relative;"
+See:
+https://qiita.com/Fj0gxKrVL1VsbRb/items/59c8bad3355ea4698623
+https://saruwakakun.com/html-css/basic/relative-absolute-fixed
+https://taneppa.net/responsive_background_image/
+*/
 .analyze {
   position: relative;
   width: 100%;
   height: 0;
-  padding-top: 50%;
+  padding-top: 100%;
   display: block;
   margin-top: auto;
   margin-left: auto;
   margin-right: auto;
 }
+@media screen and (min-width: 481px) {
+  .analyze {
+    padding-top: 79.5%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .analyze {
+    padding-top: 45%;
+  }
+}
+
 .analyze iframe {
   position: absolute;
   top: 0;
