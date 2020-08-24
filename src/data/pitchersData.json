@@ -31,7 +31,7 @@
     "year": 2019,
     "league": "NL",
     "team": "LAD",
-    "name": "Hyun Jin Ryu",
+    "name": "Hyun-jin Ryu",
     "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiODNiYzdlZDYtZTAxZC00ZWMyLWFhZDYtODIzZmU1MDY1MGRjIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSectionc9c3a8a35c9cf2a479cb\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
   },
   {
@@ -58,6 +58,34 @@
   {
     "year": 2019,
     "league": "AL",
+    "team": "HOU",
+    "name": "Brad Peacock",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNzFhM2Y3NGQtYTk5Yy00N2RiLWI4YTYtYTBhOGViZmY2OWUxIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSectione3e8b4b8912ef426764e\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "HOU",
+    "name": "Justin Verlander",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMmQ1YjY0YmUtMmE2Mi00Y2YyLThlNWYtM2Q0MGJiMzIwYWIwIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSectione3e8b4b8912ef426764e\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "HOU",
+    "name": "Roberto Osuna",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNTQ1ZjRhMjQtNWQ5Ni00NTU4LWEyODQtOWQ0YWEyMTFmNWJmIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "HOU",
+    "name": "Wade Miley",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNDM1ZjhmNWMtZGViNS00NDE0LTk5YjUtZjM0MzE1YzZiNzc4IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSectione3e8b4b8912ef426764e\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
     "team": "NYY",
     "name": "Masahiro Tanaka",
     "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiZGNhZmUwNTQtODM2Zi00YTNmLTljODUtMjkyOThjNjU1YmQ2IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSection71256522a1becacb1c74\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
@@ -73,8 +101,8 @@
     "year": 2019,
     "league": "AL",
     "team": "NYY",
-    "name": "DomingoGerman",
-    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiYjY2MDQwOWUtMTEwNC00NTNhLTk5ZjYtNDc5N2I0M2NhOTgwIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+    "name": "Domingo German",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiYjY2MDQwOWUtMTEwNC00NTNhLTk5ZjYtNDc5N2I0M2NhOTgwIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSectione3e8b4b8912ef426764e\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
   },
   {
     "year": 2019,
@@ -89,5 +117,40 @@
     "team": "NYY",
     "name": "James Paxton",
     "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNTg0YmI4NWQtMDgxYy00YTg4LThlN2EtMTU3MjU3NjQyMjk2IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "BOS",
+    "name": "Brandon Workman",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMjY5MWI3MzUtMzA3Ni00OWRmLTllZDgtNTA2MzVkMjkwZTZhIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSectione3e8b4b8912ef426764e\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "BOS",
+    "name": "Chris Sale",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiYWU0ZjAxOTItN2M2OS00ZmMyLWFiMzktZTdmMTdiNGUyMzEzIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSectione3e8b4b8912ef426764e\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "BOS",
+    "name": "David Price",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiOGViMDNkOGEtMzEwZS00Y2RjLWExM2MtNTg0NmNjYmRhNjEwIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSectione3e8b4b8912ef426764e\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "BOS",
+    "name": "Eduardo Rodrguez",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMDI2NDA4YTMtNjIxMS00NTc2LWJlNTQtYjAzZDk3NDc4OTc4IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "BOS",
+    "name": "Rick Porcello",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiZTk5MTE2NTgtODg2Ni00Zjg0LWEyMTItY2FmMjQ4ZDMxYzQ4IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
   }
 ]
