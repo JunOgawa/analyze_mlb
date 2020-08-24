@@ -127,29 +127,18 @@ export default {
     // set initial value of selectedTeam.
     // If there's no AL team in pichtersData, that will be in trouble.
     this.selectedTeam = this.ALTeams[0].teams[0]
+
+    this.changePlayer(
+      this.choosePlayers(this.pitchersData, this.selectedYear, this.selectedTeam)[0]
+    )
   },
 
   computed: {
-    // I'm not sure why only the following can move to computed
-    // but others are not.
-    // Take care you cannot directly use any arguments in function
-    // in computed, but use like the followings.
+    // If you use a method only in between <template> and </template>,
+    // you can put the method to computed: area.
+    // But methods also used in created, you should put them to metods:.
 
     //  Picking out players in the selected year and teams.
-    choosePlayers: () => {
-      return (val, target1, target2) => {
-        let retVal = []
-        retVal = val
-          .filter((item) => {
-            return item.year === target1 && item.team === target2
-          })
-          .map((item) => item.name)
-          .sort()
-        // retVal2 = retVal.map(item => item.name)
-        return retVal
-      }
-    },
-
     //  Picking out teams in the selected year.
     chooseTeams: () => {
       return (val, target) => {
@@ -197,6 +186,17 @@ export default {
       if (this.resultURL.length > 1) {
         console.log('result URL Error')
       }
+    },
+    choosePlayers(val, target1, target2) {
+      let retVal = []
+      retVal = val
+        .filter((item) => {
+          return item.year === target1 && item.team === target2
+        })
+        .map((item) => item.name)
+        .sort()
+      // retVal2 = retVal.map(item => item.name)
+      return retVal
     },
 
     // uniqueTeam creates the array like [year:2019, teams: {NYY, BOS}]
@@ -260,6 +260,7 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: normal;
   table tr {
     height: 10pt;
   }
@@ -269,9 +270,18 @@ export default {
   color: #147aeed8;
   cursor: pointer;
 }
+@media screen and (min-width: 481px) {
+  .menu-column {
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 769px) {
+  .menu-column {
+    font-weight: bold;
+  }
+}
 .menu-column > div {
   display: inline-block;
-  font-weight: bold;
   text-decoration: underline;
   line-height: auto;
   text-align: left;
@@ -284,9 +294,9 @@ export default {
   line-height: 5pt;
   margin-right: 7pt;
   margin-top: 5pt;
+  font-weight: normal;
 }
 .team {
-  font-weight: bold;
   text-decoration: underline;
   display: inline-block;
   cursor: pointer;
@@ -294,7 +304,6 @@ export default {
   margin-right: 3pt;
 }
 .player {
-  font-weight: bold;
   display: inline-block;
   margin-right: 7pt;
 }
@@ -342,7 +351,6 @@ https://taneppa.net/responsive_background_image/
     padding-top: 45%;
   }
 }
-
 .analyze iframe {
   position: absolute;
   top: 0;
