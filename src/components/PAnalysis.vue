@@ -297,14 +297,16 @@ export default {
   font-weight: normal;
 }
 .team {
-  text-decoration: underline;
   display: inline-block;
+  text-decoration: underline;
+
   cursor: pointer;
   line-height: 3pt;
   margin-right: 3pt;
 }
 .player {
   display: inline-block;
+  text-decoration: underline;
   margin-right: 7pt;
 }
 .players-table {
@@ -348,7 +350,7 @@ https://taneppa.net/responsive_background_image/
 }
 @media screen and (min-width: 769px) {
   .analyze {
-    padding-top: 45%;
+    padding-top: 40%;
   }
 }
 .analyze iframe {
