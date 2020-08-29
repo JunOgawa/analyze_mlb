@@ -186,6 +186,7 @@ export default {
       if (this.resultURL.length > 1) {
         console.log('result URL Error')
       }
+      this.$ga.event('Player', 'click', this.selectedPlayer, 1)
     },
     choosePlayers(val, target1, target2) {
       let retVal = []

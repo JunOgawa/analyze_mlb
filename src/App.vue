@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <div id="nav" style="color: #42b983; font-weight: bold; font-size: 120%;">
-      <router-link to="/"></router-link>MLB Pitchers' Analysis
+      <router-link to="/"></router-link>
+      MLB Pitchers' Analysis
     </div>
     <router-view />
   </div>
