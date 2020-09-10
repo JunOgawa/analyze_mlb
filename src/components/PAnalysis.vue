@@ -83,7 +83,7 @@ export default {
       Years: [],
       ALTeams: [],
       NLTeams: [],
-
+      userSelect: false,
       // to keep the clicked item
       selectedYear: [],
       selectedTeam: [],
@@ -186,8 +186,13 @@ export default {
       if (this.resultURL.length > 1) {
         console.log('result URL Error')
       }
-      this.$ga.event('Player', 'click', this.selectedPlayer, 1)
+      if (this.userSelect === false) {
+        this.userSelect = true
+      } else {
+        this.$ga.event('Player', 'click', this.selectedPlayer, 1)
+      }
     },
+
     choosePlayers(val, target1, target2) {
       let retVal = []
       retVal = val
@@ -346,7 +351,7 @@ https://taneppa.net/responsive_background_image/
 }
 @media screen and (min-width: 481px) {
   .analyze {
-    padding-top: 79.5%;
+    padding-top: 75%;
   }
 }
 @media screen and (min-width: 769px) {

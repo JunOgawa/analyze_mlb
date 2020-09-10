@@ -2,6 +2,48 @@
   {
     "year": 2019,
     "league": "NL",
+    "team": "ATL",
+    "name": "Dallas Keuchel",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiM2Q2YWZiNTctNmM4ZC00YjY0LWFlMzAtNTI3ZTRkODgyODFjIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "ATL",
+    "name": "Julio Teheran",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiYjA4MWQ4YmEtMDFkMi00ZjM1LWJmYTgtN2U2NTVkNzY5M2JhIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "ATL",
+    "name": "Luke Jackson",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMWVjNmI1ZTktMTA5NS00MjU0LWI2MjMtMjFkZTJiOGFmYWE5IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "ATL",
+    "name": "Max Fried",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiYjkxZjI2MWYtZTZhZi00YmM3LWJlMGUtMGVjOWQ3NTRjMmRmIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "ATL",
+    "name": "Mike Foltynewicz",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNzI5NzA2N2YtNTA3Ny00Mzc5LWI2YTItMDcyMThlNTllYzg2IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "ATL",
+    "name": "Mike Soroka",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNDk0MDA1MjMtMjg2YS00MDQzLWEwYTEtYjdjYjY5YzdlMTRjIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
     "team": "LAD",
     "name": "Clayton Kershaw",
     "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNDg2N2NmM2UtNDI4Zi00NzE2LTgwYmYtZmIzY2YzNjlmMTUyIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSection0ea27cb042c52131dc13\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
@@ -86,6 +128,48 @@
   {
     "year": 2019,
     "league": "NL",
+    "team": "CIN",
+    "name": "Anthony DeSclafani",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMTI2ODIwOTktODZlYy00ZTQ0LWFiNGQtNjllODQ0MWUzMGZjIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "CIN",
+    "name": "Luis Castillo",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiOTc5ZWNiOGItZTQ5ZC00YjhiLWJhNDAtMDdhZDRkMWI4MjgxIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "CIN",
+    "name": "Raisel Iglesias",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNjU1Yzg2NGUtNmIxMC00MGYzLWEwZGMtMjIwMmIwY2VhZTIxIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "CIN",
+    "name": "Sonny Gray",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiYmJhODBjODgtN2MwYS00MzFhLThiOTMtNDhkZTdhZmY1YjQ2IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "CIN",
+    "name": "Tanner Roark",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiYjc3ZDRjNjItYjUyNy00OGYwLWE4ZTctNjE5MzE0MTdmM2M4IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "CIN",
+    "name": "Tyler Mahle",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMTQ5YTJkODAtZTdkYy00ODk5LWJmYmYtY2NhNmYwOGMwMTYyIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
     "team": "MIA",
     "name": "Caleb Smith",
     "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNTNjNjhlMzgtOTRhOS00NGJjLTg5ZGEtNzVlOGJiZGIxNjQ3IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
@@ -156,6 +240,153 @@
   {
     "year": 2019,
     "league": "NL",
+    "team": "NYM",
+    "name": "Edwin Diaz",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiY2U2YWQ5Y2EtYmY5OC00Yjk5LWFlMjAtYjczYWY5MzY4ZGM1IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "NYM",
+    "name": "Jacob deGrom",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNWY1ZTIyYWEtZTIzNC00MjA3LTlkZWQtZDdlNjg0Y2VkMWQ0IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "NYM",
+    "name": "Noah Syndergaard",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiYzdjODJlMmMtMDY4ZC00NjcyLWI0MjYtYzgyMjZhYTM2M2Q5IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "NYM",
+    "name": "Steven Matz",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMTgwNmRjMDItODA4Yy00Y2I5LWExNGEtYzA5YWUxNWNlNzRlIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "PIT",
+    "name": "Chris Archer",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMGE2ODNlNmItNjQzYS00YzM0LTgxODEtOTljZjNiMWM5YzUxIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "PIT",
+    "name": "Felipe Vazquez",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNzhjN2ViMmYtOTY3Zi00YzZhLTkxYzctMDM4MGRhYjkzMmUzIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "PIT",
+    "name": "Joe Musgrove",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMjk2ZDdhOTUtMGZiMC00OWM5LTk0YzgtODEwMzVjMTYxMmE4IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "PIT",
+    "name": "Steven Brault",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiM2QzNTI2ZjEtNjJjZi00MmVkLTlmMjgtNGQ4MGNjYjkzODRjIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "PIT",
+    "name": "Trevor Williams",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiYjc2NTVmMjQtYjZhOC00N2RiLThiYzktMGY4NDAyYjkzYTBlIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "NYM",
+    "name": "Zack Wheeler",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiOWZjMTQ1ZjMtOGRmYy00N2M2LWFlMWQtNzUwNDI3NzVmOTcxIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "PHI",
+    "name": "Aaron Nola",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMjFkYzIyZDMtZmRjNS00NTQ0LWI0ODAtNTk0ODVkMjA0NTM1IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "PHI",
+    "name": "Hector Neris",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNTJkOWEyZDMtYTVjZS00ZWI4LWJkNTktOGZiOGI2NzczMTZlIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "PHI",
+    "name": "Jake Arrieta",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiYzA5MmI3MWEtNmM2Ni00ZGJmLTg0NzAtZGNlNGM4OWI4NWQyIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "PHI",
+    "name": "Vince Velasquez",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiM2IxYjJkNTEtNDQxOS00MTgzLThiZmEtMTFlZTlkMjgyNzhhIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "PHI",
+    "name": "Zach Eflin",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiYjJlNmNlODUtZGMwZC00MjYyLTkxNjgtNzEyM2ZkMTJmMTYyIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "STL",
+    "name": "Adam Wainwright",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNTM0NTRkYmMtZDk5MS00MmMyLWFmMzEtMWI4Nzg3ZGU2ZDVjIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "STL",
+    "name": "Carlos Martinez",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMDg4NDVjNGMtZDhjYi00MzIwLWJmY2ItMTM0NGYzNjA3YjljIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "STL",
+    "name": "Dakota Hudson",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNGZmZjBlMWEtMjgyOS00NTI0LTgwYjktMDZlNzFhNjNjNzY4IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "STL",
+    "name": "Jack Flaherty",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiYTFiODIxNmYtZGQ2Yi00YjEzLWFkNzQtYTJlMWYxNGQ5NzQyIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "STL",
+    "name": "Michael Wacha",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiZGQwOTQ5ZTItYmRmZS00OGEyLTgxODAtMTM5NjA2YzFkODQ0IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
+    "team": "STL",
+    "name": "Miles Mikolas",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNzk2NDlhMmItOWIyZS00ZTNkLWJiYzQtMzFmMTgwMWJlMDZkIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "NL",
     "team": "WAS",
     "name": "Anibal Sanchez",
     "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMjkzMWNiZmQtY2JmNi00OGUyLWI0M2YtNzE0YWJjZDhkMWZjIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSectione3e8b4b8912ef426764e\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
@@ -187,6 +418,34 @@
     "team": "WAS",
     "name": "Stephen Strasburg",
     "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNzMxYWViYTQtYzc3Yi00YmZlLWIzZGEtOTI0NTc5ZWUxM2QxIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSectione3e8b4b8912ef426764e\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "BAL",
+    "name": "Andrew Cashner",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiZTY0NzBkYzgtYjBmMi00YzIwLTg4NmQtNzZhMzI0ZmNjMDk0IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "BAL",
+    "name": "Dylan Bundy",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiZmE3YTJiZDEtYWM4Yi00ZjFhLTliMjctMzQ1NzRhY2Y2MzdmIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "BAL",
+    "name": "John Means",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiOTIyYWUyODgtMmFmZi00YTkzLWI4MWQtZTIyZTJlYTdkYjIwIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "BAL",
+    "name": "Mychal Givens",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiOTA2ZTBjOTAtNDEwMS00MDU0LWJlMjItOWY0ODcyYjgwNmVmIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
   },
   {
     "year": 2019,
@@ -254,6 +513,69 @@
   {
     "year": 2019,
     "league": "AL",
+    "team": "CWS",
+    "name": "Alex Colome",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNDUyZDc0NTItZDIzOC00YmUyLWIyYzctZDAzOTJmNzlmNWRkIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSectione3e8b4b8912ef426764e\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "CWS",
+    "name": "Ivan Nova",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMWIzOTRjOGQtNjZmNi00MTkxLWE0M2UtMWQwNjk0MzU1NTAxIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "CWS",
+    "name": "Lucas Giolito",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiZjA4YmRmNjYtOTViOC00MzAwLWEzNDItYjM0OTZhM2NkMjlmIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "CWS",
+    "name": "Reynaldo Lopez",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiZGM2ZThhMTQtOGE1MS00MTUyLTgzY2UtNTJhNDQ1YzY5MDFkIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "DET",
+    "name": "Daniel Norris",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiN2RkOTIyYzgtMTM0OS00NWU5LTg0NDUtZDg0N2YyZDMwOGZlIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "DET",
+    "name": "Jordan Zimmermann",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMDJiODUwM2UtOTg2Mi00MGQ2LTk4M2UtNThmZjhlNmNhYTczIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "DET",
+    "name": "Matthew Boyd",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiOWM5ODkwOTItMWU4Ni00YWM1LWJhNWQtNGE4ODRlMjIzMTE0IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "DET",
+    "name": "Shane Greene",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMmQzMGY2NGUtYmE5ZS00MzRkLTk1NzYtMTNkNjhmNzY2M2U3IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "DET",
+    "name": "Spencer Turnbull",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNjJkODYyOWMtODJjMC00MTBhLWFjNTAtYzU1NTFhYzZjNzUwIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
     "team": "HOU",
     "name": "Zack Greinke",
     "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNjQ0MmM1MDctZTdjMi00NzIyLTg1MzUtNzFiMmI1NjFjMjBjIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
@@ -271,6 +593,90 @@
     "team": "HOU",
     "name": "Wade Miley",
     "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNDM1ZjhmNWMtZGViNS00NDE0LTk5YjUtZjM0MzE1YzZiNzc4IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9&pageName=ReportSectione3e8b4b8912ef426764e\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "KC",
+    "name": "Brad Keller",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNGRkMGE4Y2YtOGZiNi00YzA5LWI4Y2MtMzZkNjdiNGE5MjBhIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "KC",
+    "name": "Danny Duffy",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMDEwOWY4MzktZTdkNi00ZjE1LTg2ZGQtODFjZWZiN2JhNmZmIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "KC",
+    "name": "Glenn Sparkman",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMDBjZGNmOTAtNWE2OC00ZWYyLTg1MTItNWEwOTZjZGM4MTQ2IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "KC",
+    "name": "Homer Bailey",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiOTBlZTZhYWMtZDIwYy00YjllLTgwYTQtYjQ4NDVhNDU4YWM0IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "KC",
+    "name": "Ian Kennedy",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiZjg0YjMwZDYtMWI4Ny00OGMxLWE3M2EtMjBhZTg0MmM3MTdhIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "KC",
+    "name": "Jakob Junis",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiOGEyZDVmZmItZWVkMy00NmZmLWI1ODUtNjIxY2IyMmFlOTExIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "MIN",
+    "name": "Jake Odorizzi",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiM2FiNGMwOTUtOGIyNi00MDM1LThhMWQtYmIyYjE1OTM0NDdkIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "MIN",
+    "name": "Jose Berrios",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNzUwOWQ4MWUtYWNlYy00ODNiLTlmYzUtNDY2MjllMzgzYWIzIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "MIN",
+    "name": "Kyle Gibson",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNDQwZTgyNjMtZjcyYS00NmU5LWI5M2YtNzQ2NWI4YjViYzY0IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "MIN",
+    "name": "Martin Perez",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMGY4YTU4MTYtYTVlNy00NWQ4LThhMWYtYjJmNmJmMzk0NmI1IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "MIN",
+    "name": "Michael Pineda",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNzcyNzJlZWYtMWVlMS00YWU5LTg3YzAtNTIwNTI0MWQzN2UyIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "MIN",
+    "name": "Taylor Rogers",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiZTg2Mzk3OWEtZjQ1Yi00NmI1LWJjMmUtYmJiZDkzMDY1YzE1IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
   },
   {
     "year": 2019,
@@ -306,6 +712,41 @@
     "team": "NYY",
     "name": "James Paxton",
     "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNTg0YmI4NWQtMDgxYy00YTg4LThlN2EtMTU3MjU3NjQyMjk2IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "OAK",
+    "name": "Brett Anderson",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiZThmMWI5YzUtYjgxMC00NGNmLTk4MTUtYWJjOTdhNGRiYjkyIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "OAK",
+    "name": "Chris Bassitt",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNTc1MmYwZDItZTNlMi00NWNjLThiZWMtN2YyNTFkMDZkYzM4IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "OAK",
+    "name": "Frankie Montas",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiMzRjYjk1MmEtMzkxOC00Yjk1LWJjMjMtZGQwNzA4N2VmMWYwIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "OAK",
+    "name": "Liam Hendriks",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNDQwOGY4NTQtMTcyMC00ZGExLWFhNTAtMmIzZDY1MGQwZTRmIiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
+  },
+  {
+    "year": 2019,
+    "league": "AL",
+    "team": "OAK",
+    "name": "Mike Fiers",
+    "url": "<iframe width=\"800\" height=\"636\" src=\"https://app.powerbi.com/view?r=eyJrIjoiNDM5ODZmYmUtOTY1MS00NzNiLWE3NDQtN2Y0NmU4ZGYwZDQ1IiwidCI6Ijc5NWU0N2Q5LTVlODctNDAyOS04MzU1LTU3NTM3Yzc0M2UwOSJ9\" frameborder=\"0\" allowFullScreen=\"true\"></iframe>"
   },
   {
     "year": 2019,
